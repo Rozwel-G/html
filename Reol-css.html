@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Reol</title>
+	<style type="text/css">
+		h1{
+			font-size:12px;
+			letter-spacing: 10px;
+		}
+		body{
+			font-family: "Microsoft Yahei";
+		}
+		p{
+			line-height: 1.5em;
+
+		}
+		.color{
+			color:yellow;
+		}
+		.area{
+			text-indent: 2em;
+		}
+		.area1{
+			text-indent: 2em;
+			font-size: 18px;
+			color:brown;
+		}
+		ul span:hover
+		{
+			color:blue;
+		}
+		ul > li:hover{
+			color:red;
+		}
+		ul >ol >li:hover{
+			color:white;
+		}
+		ul > li.color:hover{
+			color:pink;
+		}
+	</style>
+</head>
+<!-- 这是注释 -->
+<body>
+	<form action="https://www.baidu.com/s" method="get" target="_blank"><input type="text" name="wd" placeholder=""> <input type="submit" value="百度一下"></form>
+	<hr/>
+	<h1 class="select">极彩色</h1>
+	<p class="area">来自Reol的专辑，主打歌是<a href="http://music.taihe.com/song/610737098?from=altg_site" target="_blank">mede:mede</a></p>
+	<p class="area1">购买专辑赞助</p>
+	用户名<input type="text" value="reol" ?"><br/>
+	密码<input type="password" value="reol"><br/>
+	金额<label><input type="radio" name="money" checked="checked" value="5">5元</label><label><input type="radio" name="money" value ="10">10元<label>
+	<p>请选择你喜欢的单曲让我们继续改进</p>
+	<label><input type="checkbox" name="song"> mede:mede</label>
+	<label><input type="checkbox" name="song"> tokyo foundun</label>
+	<label><input type="checkbox" name="song"> Echo</label>
+	<label><input type="checkbox" name="song"> drop drop candy</label>
+	<p>你最喜欢的专辑是</p>
+	<select>
+		<option>极彩色</option>
+		<option>平面镜</option>
+		<option>刮目相待</option>
+	</select>
+	<div class="p-price">
+		<span>on seal</span>
+		<strong><em style ="color:blue">$2.2</em></strong>
+	</div>
+	个人介绍:<textarea rows="5" cols="50" placeholder="兴趣爱好，平时喜欢的歌曲类型"></textarea><br/>
+	<input type="button" value="确定">
+	<img src="C:\Users\RRReol\Documents\Tencent Files\1092679445\FileRecv\MobileFile\1.jpg"/>
+	<ul>
+		<li>1</li>
+		<li class="color">2</li>
+		<li>3</li>
+		<ol>
+			<li>4</li>
+			<li>5</li>
+		</ol>
+	</ul>
+
+
+	<ul>
+		<li><span>study</span>/<span>sleep</span></li>
+		<li><span>cod</span>/<span>persona</span></li>
+	</ul>	
+</body>
+</html>
